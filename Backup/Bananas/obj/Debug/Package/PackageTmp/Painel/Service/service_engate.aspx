@@ -1,0 +1,1 @@
+﻿<%@ Page CompilationMode="Always" EnableSessionState="False" EnableViewState="false" Transaction="RequiresNew" Language="C#" Buffer="false" AutoEventWireup="true" CodeBehind="service_engate.aspx.cs" Inherits="Bananas.Painel.Service.service_engate" %>

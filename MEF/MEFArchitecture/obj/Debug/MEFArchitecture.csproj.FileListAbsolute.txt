@@ -1,0 +1,5 @@
+C:\VS2010Projetos\MEF\MEFArchitecture\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010Projetos\MEF\MEFArchitecture\bin\Debug\MEFArchitecture.dll
+C:\VS2010Projetos\MEF\MEFArchitecture\bin\Debug\MEFArchitecture.pdb
+C:\VS2010Projetos\MEF\MEFArchitecture\obj\Debug\MEFArchitecture.dll
+C:\VS2010Projetos\MEF\MEFArchitecture\obj\Debug\MEFArchitecture.pdb

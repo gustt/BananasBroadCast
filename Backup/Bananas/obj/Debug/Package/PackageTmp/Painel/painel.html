@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Painel</title>
+    <script src="../Scripts/gaia.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            setLegenda(document.getElementById("legenda"));
+            setContador(document.getElementById("contagem"));
+            setPlay(document.getElementById("play"));
+            startSys();
+            setInterval('checkEng()', 9000);
+        };
+    </script>
+    <style type="text/css">
+        body
+        {
+            padding: 0px 0px 0px 0px;
+            margin:  0px 0px 0px 0px;
+            width: 100%;
+            height: 100%;
+            font-family: Calibri;            
+        }
+        #contador
+        {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 180px;
+            height: 60px;
+            border: 1px solid #D2B48C;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #F5F5DC;
+        }
+        #contagem
+        {
+            font-size: 35pt;
+        }
+        #painel
+        {
+            border: 1px solid #D2B48C;
+            position: absolute;
+            margin-top: -150px;
+            margin-left: -250px;
+            top: 50%;
+            left: 50%;
+            width: 500px;
+            height: 300px;
+            background-color: #FFFAFA;
+        }
+        #batepapo
+        {
+            position: absolute;
+            border: 1px solid #D2B48C;
+            left: 50%;
+            margin-left: -225px;
+            top: 100px;
+            width: 450px;
+            height: 180px;              
+        }
+        #play
+        {
+            position: absolute;
+            border: 1px solid #D2B48C;
+            width: 250px;
+            height: 60px;
+            top: 5%;
+            left: 45%;
+        }
+        #legenda
+        {
+            font-size: 8pt;
+        }
+    </style>
+</head>
+<body>
+    <div id="painel">
+        <div id="contador">
+            <div id="legenda"></div>
+            <div id="contagem"></div>
+        </div>
+        <div id="play">PLAY</div>
+        <div id="batepapo">A FAZER: STREAM COMUNICADOS</div>
+    </div>
+</body>
+</html>

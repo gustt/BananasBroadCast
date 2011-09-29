@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+        var oRelogio = function () {};
+        window.onload = function () {
+            try {
+                oRelogio.Hora = 13;
+                oRelogio.Minuto = 58;
+                oRelogio.Segundo = 30;
+                oRelogio.OutPutControl = document.getElementById("relogio");
+                oRelogio.TimeCount = function () {
+                    if (this.Segundo < 59)
+                        this.Segundo++;
+                    else {
+                        this.Segundo = 0;
+                        if (this.Minuto < 59)
+                            this.Minuto++;
+                        else {
+                            this.Minuto = 0;
+                            if (this.Hora < 23)
+                                this.Hora++;
+                            else
+                                this.Hora = 0;
+                        }
+                    }
+
+                    if (this.OutPutControl != null && this.OutPutControl != undefined)
+                        this.OutPutControl.value = this.Hora + ":" + this.Minuto + ":" + this.Segundo;
+                };
+                
+                setInterval("oRelogio.TimeCount()", 1000);
+            } catch (e) {
+                alert(e);
+            }
+        };
+    </script>
+</head>
+<body>
+    <input type="text" id="relogio" value="a" />
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\gustavo.pdcase\Desktop\Site" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="False" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True" useFpForLocalhost="0">
+    <file relUrl="bin/Bananas.pdb" publishTime="01/18/2010 19:58:32" />
+    <file relUrl="Administrativo/CadatroCliente.aspx" publishTime="12/18/2009 18:39:00" />
+    <file relUrl="Administrativo/CadastroProgramaEngate.aspx" publishTime="01/17/2010 20:54:43" />
+    <file relUrl="bin/References.dll" publishTime="01/18/2010 19:58:30" />
+    <file relUrl="Administrativo/ListaAdministrador.aspx" publishTime="12/21/2009 14:26:38" />
+    <file relUrl="Administrativo/UserControls/ColecaoListaPrograma.ascx" publishTime="12/21/2009 20:34:08" />
+    <file relUrl="Administrativo/CadastroProgramacao.aspx" publishTime="12/22/2009 08:36:55" />
+    <file relUrl="Admin.Master" publishTime="11/22/2009 10:30:27" />
+    <file relUrl="App_Themes/Default/SkinFile.skin" publishTime="12/18/2009 15:40:13" />
+    <file relUrl="Scripts/jquery-1.3.2-vsdoc.js" publishTime="11/22/2009 10:21:13" />
+    <file relUrl="Scripts/jquery-1.3.2.js" publishTime="11/22/2009 10:21:13" />
+    <file relUrl="Painel/Service/service_engate.aspx" publishTime="01/17/2010 11:41:57" />
+    <file relUrl="Administrativo/CadastroAdministrador.aspx" publishTime="12/18/2009 18:38:58" />
+    <file relUrl="bin/References.pdb" publishTime="01/18/2010 19:58:30" />
+    <file relUrl="bin/Bananas.dll" publishTime="01/18/2010 19:58:32" />
+    <file relUrl="bin/DBLayers.pdb" publishTime="01/18/2010 19:58:31" />
+    <file relUrl="Administrativo/UserControls/InstanciaProgramacao.ascx" publishTime="12/21/2009 20:46:43" />
+    <file relUrl="Administrativo/UserControls/InstanciaAdministrador.ascx" publishTime="12/21/2009 15:22:43" />
+    <file relUrl="Painel/painel.html" publishTime="01/18/2010 13:08:05" />
+    <file relUrl="Administrativo/CadastroPrograma.aspx" publishTime="12/18/2009 18:38:59" />
+    <file relUrl="Administrativo/ListaCliente.aspx" publishTime="12/21/2009 14:26:38" />
+    <file relUrl="Administrativo/UserControls/InstanciaPrograma.ascx" publishTime="12/21/2009 20:23:40" />
+    <file relUrl="Administrativo/UserControls/ChildUserControls/ColecaoListaProgramacao.ascx" publishTime="12/22/2009 08:38:37" />
+    <file relUrl="Administrativo/ListaPrograma.aspx" publishTime="12/21/2009 14:26:36" />
+    <file relUrl="Administrativo/UserControls/ColecaoListaAdministrador.ascx" publishTime="12/21/2009 09:11:36" />
+    <file relUrl="Scripts/jquery-1.3.2.min.js" publishTime="11/22/2009 10:21:13" />
+    <file relUrl="bin/DBLayers.dll" publishTime="01/18/2010 19:58:31" />
+    <file relUrl="Administrativo/UserControls/InstanciaCliente.ascx" publishTime="12/22/2009 08:53:25" />
+    <file relUrl="Web.config" publishTime="01/18/2010 19:58:53" />
+    <file relUrl="Administrativo/UserControls/ToolBar.ascx" publishTime="12/18/2009 13:42:13" />
+    <file relUrl="Scripts/gaia.js" publishTime="01/18/2010 19:55:23" />
+    <file relUrl="Administrativo/UserControls/InstanciaProgramaEngate.ascx" publishTime="01/18/2010 19:13:53" />
+    <file relUrl="Administrativo/UserControls/ColecaoListaCliente.ascx" publishTime="12/21/2009 09:05:24" />
+  </publishProfile>
+</publishData>

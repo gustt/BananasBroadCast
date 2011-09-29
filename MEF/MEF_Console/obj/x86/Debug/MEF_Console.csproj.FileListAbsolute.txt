@@ -1,0 +1,5 @@
+C:\VS2010Projetos\MEF\MEF_Console\bin\Debug\MEF_Console.exe
+C:\VS2010Projetos\MEF\MEF_Console\bin\Debug\MEF_Console.pdb
+C:\VS2010Projetos\MEF\MEF_Console\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VS2010Projetos\MEF\MEF_Console\obj\x86\Debug\MEF_Console.exe
+C:\VS2010Projetos\MEF\MEF_Console\obj\x86\Debug\MEF_Console.pdb

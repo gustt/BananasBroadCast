@@ -1,0 +1,11 @@
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\bin\Debug\MEF_WF.exe
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\bin\Debug\MEF_WF.pdb
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\MEF_WF.Default.resources
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\MEF_WF.Properties.Resources.resources
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\MEF_WF.exe
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\obj\x86\Debug\MEF_WF.pdb
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\bin\Debug\MEFArchitecture.dll
+C:\VS2010Projetos\MEF\MEF_WF\MEF_WF\bin\Debug\MEFArchitecture.pdb

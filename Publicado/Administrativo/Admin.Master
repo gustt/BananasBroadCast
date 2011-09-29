@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Bananas.Admin" %>
+
+<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Bananas BlogCast</title>
+    <asp:ContentPlaceHolder ID="plhHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmPrincipal" runat="server">
+    <div id="master-top">
+        <div id="master-top-logo"></div>
+        <div id="master-top-bar">
+            <div id="dlnkRadio">
+                <div id="dlnkRadioAjust">
+                    <asp:LinkButton runat="server" ID="lnkRadio" Text="Radio" OnClick="lnkRadio_Click"></asp:LinkButton>
+                </div>
+            </div>
+            <div id="dlnkLogoff">
+                <div id="dlnkLogoffAjust">
+                    <asp:LinkButton runat="server" ID="lnkLogOff" Text="Log Out" OnClick="lnkLogOff_Click"></asp:LinkButton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="master-content">
+        <div id="dMenu">
+            <ul>
+                <li>
+                    <asp:LinkButton runat="server" ID="lnkCliente" OnCommand="lnk_Command" Text="Cliente"
+                    CommandName="Lista" CausesValidation="false" CommandArgument="Cliente"></asp:LinkButton>
+                </li>
+                <li>
+                    <asp:LinkButton runat="server" ID="lnkAdministrador" OnCommand="lnk_Command"
+                    Text="Administrador" CommandName="Lista" CausesValidation="false" CommandArgument="Administrador"></asp:LinkButton>
+                </li>
+                <li>
+                    <asp:LinkButton runat="server" ID="lnkPrograma" OnCommand="lnk_Command"
+                    Text="Programa" CausesValidation="false" CommandName="Lista" CommandArgument="Programa"></asp:LinkButton>
+                </li>
+                <li>
+                    <asp:LinkButton runat="server" ID="lnkEngate" OnCommand="lnk_Command"
+                    Text="Engate/Comunicação" CausesValidation="false" CommandName="Cadastro" CommandArgument="ProgramaEngate"></asp:LinkButton>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="dContent">
+        <asp:ContentPlaceHolder ID="plhMenuSuperior" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="dPrincipal">
+            <asp:ValidationSummary runat="server" ID="vs" DisplayMode="BulletList" />  
+            <asp:ContentPlaceHolder ID="plhContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="toolbar-inferior"></div>
+    </div>
+    </form>
+</body>
+</html>

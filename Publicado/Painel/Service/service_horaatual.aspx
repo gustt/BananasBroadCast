@@ -1,0 +1,1 @@
+﻿<%@ Page EnableTheming="false" CompilationMode="Always" EnableSessionState="False" EnableViewState="false" Transaction="RequiresNew" Language="C#" Buffer="false" AutoEventWireup="true" CodeBehind="service_horaatual.aspx.cs" Inherits="Bananas.Painel.Service.service_horaatual" %>
